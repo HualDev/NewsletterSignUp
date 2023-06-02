@@ -14,3 +14,66 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+    background-image: url('./assets/images/illustration-sign-up-mobile.svg');
+    width: 100%;
+    height: 55vh;
+    border-radius: 0 0 1rem 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section{
+    padding: 2rem;
+}
+
+.advantages{
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+label{
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 2rem 0 -0.5rem 0; 
+}
+
+input[type='email']{
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.7rem;
+    border: 0.3px solid var(--charcoalGrey);
+    font-size: 1rem;
+}
+
+input[type='button']{
+    background-color: var(--darkSlateGrey);
+    padding: 1.3rem;
+    width: 100%;
+    border-radius: 0.8rem;
+    margin-top: 1rem;
+    border: none;
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+footer{
+    font-size: 1rem;
+    text-align: center;
+}
+footer a{
+    color: hsl(228, 45%, 44%);
+}
+  
