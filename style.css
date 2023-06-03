@@ -62,16 +62,53 @@ input[type='button']{
     font-weight: 700;
 }
 
+.thanking{
+    position: absolute;
+    background-color: var(--white);
+    top: 0;
+    height: 130vh;
+    display: none;
+}
 
+.thanking img{
+    margin: 6rem 0 1rem 0;
+    padding: 1rem;
+    width: 6rem;
+}
 
+h2{
+  font-size: 2.5rem;
+  padding: 1rem 1rem 0;
+  color: var(--darkSlateGrey);
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 0;
+}
 
+p{
+    padding: 1rem ;
+    margin-top: 0;
+    color: var(--darkSlateGrey);
+    text-align: justify;
+    font-size: 0.9rem;
+}
 
-
-
+button{
+    display: block;
+    margin: 5rem auto 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--charcoalGrey);
+    color: var(--white);
+    border: none;
+    width: 90%;
+    font-weight: 700;
+}
 
 footer{
     font-size: 1rem;
     text-align: center;
+    margin-top: 2rem;
 }
 footer a{
     color: hsl(228, 45%, 44%);
