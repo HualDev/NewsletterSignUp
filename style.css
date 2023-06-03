@@ -36,11 +36,20 @@ section{
     margin-bottom: 1rem;
 }
 
+form div{
+    display: flex;
+    justify-content: space-between;
+}
+
 label{
-    display: block;
     font-size: 0.8rem;
     font-weight: 700;
-    margin: 2rem 0 -0.5rem 0; 
+    margin: 2rem 0 0.5rem 0; 
+}
+
+.error{
+    color: var(--tomato);
+    display: none;
 }
 
 input[type='email']{
