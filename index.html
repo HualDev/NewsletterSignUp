@@ -38,11 +38,11 @@
       <form action="">
         <div>
           <label for="email">Email address</label>
-          <label class="error">Valid email Required</label>
+          <label id="error" class="error">Valid email Required</label>
         </div>
         
-        <input for="email" type="email" placeholder="email@company.com">
-        <input type="button" value="Subscribe to monthly newsletter">
+        <input for="email" id="email" type="email" placeholder="email@company.com">
+        <input id="subscribe" type="button" value="Subscribe to monthly newsletter">
       </form>
     <!-- Sign-up form end --> 
     </section>
@@ -50,16 +50,19 @@
   </main>
 
   <!-- Success message start -->
-  <div class="thanking">
-    <img src="./assets/images/icon-list.svg" alt="List icon">
-    <h2>Thanks for subscribing!</h2>
-    <p>
-      A confirmation email has been sent to <b>ash@loremcompany.com.</b>  
-      Please open it and click the button inside to confirm your subscription.
-    </p>
-    <button>Dismiss message</button>
-  <!-- Success message end -->  
+  <div class="container">
+    <div class="thanking" id="thanking">
+      <img src="./assets/images/icon-list.svg" alt="List icon">
+      <h2>Thanks for subscribing!</h2>
+      <p>
+        A confirmation email has been sent to <b>ash@loremcompany.com.</b>  
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+      <button>Dismiss message</button>
+    <!-- Success message end -->  
+    </div>
   </div>
+  
   
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
